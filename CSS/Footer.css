@@ -1,0 +1,55 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    padding: 2rem 0;
+    color: white;
+    
+}
+
+.footer h3{
+    color: var(--primary-dark)
+}
+
+.footer .container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer .top, .bottom{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer .social-icons{
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+}
+
+.footer .icon{
+    color: var(--primary-light)
+}
+
+.footer .left, .right{
+    display: flex;
+    align-items: center;
+}
+
+.footer ul{
+    display: flex;
+    
+}
+
+.footer li{
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 940px){
+    .footer ul{
+        flex-direction: column;
+    }
+}
